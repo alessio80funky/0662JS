@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(213, 157, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.dodai{
+    background-color: azure;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#kekka{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(235, 133, 61);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(250, 104, 0);
+}
