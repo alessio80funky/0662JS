@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(170, 231, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+#count{
+    color: rgb(93, 93, 216);
+    font-size: 40px;
+}
+
+button{
+    background-color: rgb(150, 206, 188);
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: azure;
+}
