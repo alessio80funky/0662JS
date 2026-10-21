@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    place-items: center;
+    display: block;
+    align-items: center;
+}
+
+
+input,
+button {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

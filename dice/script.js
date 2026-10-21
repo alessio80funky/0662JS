@@ -4,8 +4,8 @@ const detame = document.getElementById("detame");
 
 
 btn.addEventListener("click", function(){
-
-    kekka.style.color = "black";
+try{
+      kekka.style.color = "black";
       const bango = Math.floor(Math.random() * 6) + 1;
 
     //Math.random() ０以上1未満を作る -> 0.75
@@ -41,6 +41,10 @@ btn.addEventListener("click", function(){
   window.alert("リセットしました");
 }, 500);
     }
+} catch (error){
+    console.log(error.message)
+}
+  
 
 
 })
